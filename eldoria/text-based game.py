@@ -34,7 +34,7 @@ def start_game():
     if path_choice.lower() == "illumination":
         print("You walk along the Path of Illumination, where beams of sunlight guide your way.")
         time.sleep(1)
-        fish_choice = input("As you proceed, you encounter a shimmering pool with a golden fish swimming within. The fish speaks with a melodious voice, offering you a cryptic choice. \"To reach the treasure's embrace, answer me this: What reflects the truest face?\" What is your answer? (bird/fish/fire): ")
+        fish_choice = input("As you proceed, you encounter a shimmering pool with a golden fish swimming within. The fish speaks with a melodious voice, offering you a cryptic choice. \"To reach the treasure's embrace, answer me this: In Eldoria, what creature soars high above the clouds?\" What is your answer? (bird/fish/dragon): ")
 
         if fish_choice.lower() == "bird":
             print("The golden fish nods in approval and grants you passage.")
