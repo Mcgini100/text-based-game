@@ -29,7 +29,16 @@ def start_game():
     time.sleep(1)
     print("You find yourself in the heart of the Enchanted Grove, surrounded by ancient trees and shimmering lights.")
     time.sleep(1)
-    path_choice = input("A pathway splits into two directions: the Path of Illumination and the Path of Shadows. Which path will you choose? (illumination/shadows): ")
+    def get_user_input(prompt, valid_responses):
+        while True:
+            response = input(prompt).lower()
+            if response in valid_responses:
+                return response
+            else:
+                print("Invalid response. Please try again.")
+
+    # Usage:
+    path_choice = get_user_input("A pathway splits into two directions: the Path of Illumination and the Path of Shadows. Which path will you choose? ", ["illumination", "shadows"])
 
     if path_choice.lower() == "illumination":
         print("You walk along the Path of Illumination, where beams of sunlight guide your way.")
