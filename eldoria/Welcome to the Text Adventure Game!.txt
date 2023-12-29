@@ -1,4 +1,5 @@
-Welcome to the Text Adventure Game!
+## used Alex as placeholder player name##
+
 Once upon a time, in the mystical realm of Eldoria where birds sore high above the clouds, a courageous adventurer named Alex embarked on a journey to find a hidden treasure of unimaginable power.
 Alex's heart thumped with excitement and trepidation as he set foot into the Enchanted Grove, guided by the tales of his late mentor, a legendary explorer.
 But beneath Alex's brave facade lay a deep motivation - a burning desire to prove himself worthy and honor his mentor's legacy.

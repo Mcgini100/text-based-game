@@ -1,23 +1,49 @@
 import time
+import gender_guesser.detector as gender
 
-print("""
-___________.__       .___           .__        
+
+def start_game():
+    d=gender.Detector()
+
+    title="""
+   ___________.__       .___           .__        
 \_   _____/|  |    __| _/___________|__|____   
  |    __)_ |  |   / __ |/  _ \_  __ \  \__  \  
  |        \|  |__/ /_/ (  <_> )  | \/  |/ __ \_
 /_______  /|____/\____ |\____/|__|  |__(____  /
         \/            \/                    \/ 
-""")
-def start_game():
-    print("Welcome to the Text Adventure Game!")
+    """
+    for line in title.split('\n'):
+        print(line)
+        time.sleep(0.5) #delay for half a second
+
+    #nPlayer name and pronoun
+    player_name= input("Enter your name: ")
+    player_gender= d.get_gender(player_name)
+
+    if player_gender in ['male','mostly_male']:
+        pronoun = 'he'
+        possessive_pronoun = 'his'
+        reflexive_pronoun = 'himself'
+    elif player_gender in ['female','mostly_female']:
+        pronoun = 'she'
+        possessive_pronoun = 'her'
+        reflexive_pronoun = 'herself'
+    else:
+        pronoun = 'they'
+        possessive_pronoun = 'their'
+        reflexive_pronoun = 'themself'
+
+
+
+
+    print(f"Once upon a time, in the mystical realm of Eldoria where Dragons sore high above the clouds, a courageous adventurer named {player_name} embarked on a journey to find a hidden treasure of unimaginable power.")
     time.sleep(1)
-    print("Once upon a time, in the mystical realm of Eldoria where birds sore high above the clouds, a courageous adventurer named Alex embarked on a journey to find a hidden treasure of unimaginable power.")
+    print(f"{player_name}'s heart thumped with excitement and trepidation as {pronoun} set foot into the Enchanted Grove, guided by the tales of {possessive_pronoun} late mentor, a legendary explorer.")
     time.sleep(1)
-    print("Alex's heart thumped with excitement and trepidation as he set foot into the Enchanted Grove, guided by the tales of his late mentor, a legendary explorer.")
+    print(f"But beneath {player_name}'s brave facade lay a deep motivation - a burning desire to prove {reflexive_pronoun} worthy and honor {possessive_pronoun} mentor's legacy.")
     time.sleep(1)
-    print("But beneath Alex's brave facade lay a deep motivation - a burning desire to prove himself worthy and honor his mentor's legacy.")
-    time.sleep(1)
-    print("As he ventured deeper into the Grove, he encountered a mischievous fairy named Luna. Luna presented a riddle that guarded the path to the treasure.")
+    print(f"As {pronoun} ventured deeper into the Grove, {pronoun} encountered a mischievous fairy named Luna. Luna presented a riddle that guarded the path to the treasure.")
     time.sleep(1)
     print("\"Two sisters I have, united yet apart,")
     print("One brings light, the other darkness.")
