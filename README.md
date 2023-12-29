@@ -1,5 +1,5 @@
 # text-based-game
-Ai generated content.
+mixed generated content.
 
 # gender guesser
 If python is installed 
