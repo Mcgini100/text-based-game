@@ -1,18 +1,26 @@
 import time
 
+print("""
+___________.__       .___           .__        
+\_   _____/|  |    __| _/___________|__|____   
+ |    __)_ |  |   / __ |/  _ \_  __ \  \__  \  
+ |        \|  |__/ /_/ (  <_> )  | \/  |/ __ \_
+/_______  /|____/\____ |\____/|__|  |__(____  /
+        \/            \/                    \/ 
+""")
 def start_game():
     print("Welcome to the Text Adventure Game!")
     time.sleep(1)
-    print("Once upon a time, in the mystical realm of Eldoria, a courageous adventurer named Alex embarked on a journey to find a hidden treasure of unimaginable power.")
+    print("Once upon a time, in the mystical realm of Eldoria where birds sore high above the clouds, a courageous adventurer named Alex embarked on a journey to find a hidden treasure of unimaginable power.")
     time.sleep(1)
-    print("Alex's heart thumped with excitement and trepidation as they set foot into the Enchanted Grove, guided by the tales of their late mentor, a legendary explorer.")
+    print("Alex's heart thumped with excitement and trepidation as he set foot into the Enchanted Grove, guided by the tales of his late mentor, a legendary explorer.")
     time.sleep(1)
-    print("But beneath Alex's brave facade lay a deep motivation - a burning desire to prove themselves worthy and honor their mentor's legacy.")
+    print("But beneath Alex's brave facade lay a deep motivation - a burning desire to prove himself worthy and honor his mentor's legacy.")
     time.sleep(1)
-    print("As they ventured deeper into the Grove, they encountered a mischievous fairy named Luna. Luna presented a riddle that guarded the path to the treasure.")
+    print("As he ventured deeper into the Grove, he encountered a mischievous fairy named Luna. Luna presented a riddle that guarded the path to the treasure.")
     time.sleep(1)
     print("\"Two sisters I have, united yet apart,")
-    print("One brings light, the other dark.")
+    print("One brings light, the other darkness.")
     print("Through the whispering wind, their voices ring,")
     print("Find the answer, and treasures you shall bring.\"")
     time.sleep(1)
