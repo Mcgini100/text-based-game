@@ -1,0 +1,34 @@
+Welcome to the Text Adventure Game!
+Once upon a time, in the mystical realm of Eldoria where birds sore high above the clouds, a courageous adventurer named Alex embarked on a journey to find a hidden treasure of unimaginable power.
+Alex's heart thumped with excitement and trepidation as they set foot into the Enchanted Grove, guided by the tales of their late mentor, a legendary explorer.
+But beneath Alex's brave facade lay a deep motivation - a burning desire to prove themselves worthy and honor their mentor's legacy.
+As they ventured deeper into the Grove, they encountered a mischievous fairy named Luna. Luna presented a riddle that guarded the path to the treasure.
+"Two sisters I have, united yet apart,
+One brings light, the other dark.
+Through the whispering wind, their voices ring,
+Find the answer, and treasures you shall bring."
+Can you solve the riddle and proceed? (y/n): 
+Unsure of the answer, you retreat from the Enchanted Grove.
+Your quest ends here, and the treasure remains forever hidden.
+Impressed by your wisdom, Luna opens a hidden passageway.
+You find yourself in the heart of the Enchanted Grove, surrounded by ancient trees and shimmering lights.
+A pathway splits into two directions: the Path of Illumination and the Path of Shadows. Which path will you choose? 
+You walk along the Path of Illumination, where beams of sunlight guide your way.
+As you proceed, you encounter a shimmering pool with a golden fish swimming within. The fish speaks with a melodious voice, offering you a cryptic choice. "To reach the treasure's embrace, answer me this: In Eldoria, what creature soars high above the clouds?" What is your answer? (bird/fish/dragon): 
+The golden fish nods in approval and grants you passage.
+The water ripples in disappointment, and you find yourself back at the crossroads.
+You navigate the treacherous Path of Shadows, shrouded in darkness.
+Glowing eyes watch you from the depths, and an eerie whisper fills the air. A mysterious voice poses a riddle that guards the path ahead. "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?" What is your answer? (wind/fire/water): 
+The shadows part, and the path clears before you.
+The whisper fades into silence, and you find yourself back at the crossroads.
+You arrive in the ancient chamber that houses the Eldorian treasure.
+Before you lies a magnificent chest, radiating with an otherworldly glow. The chest demands a final decision to unlock its secrets. "What is the true essence of an adventurer? Will you accept the responsibility that comes with this power?" Do you accept? (y/n): 
+As you affirm your acceptance, the chest opens with a blinding light.
+You have proven your worth, and the power of the Eldorian treasure is bestowed upon you.
+Congratulations! You have triumphed in your quest and unlocked a new destiny in Eldoria.
+Hesitant to bear the burden, you step back from the chest.
+The treasure fades away, leaving you with a sense of longing and unfinished business.
+Do you want to play again? (y/n): 
+Restarting the game...
+Exiting the game...
+Thank you for playing!

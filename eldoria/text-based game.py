@@ -16,7 +16,7 @@ def start_game():
     print("Through the whispering wind, their voices ring,")
     print("Find the answer, and treasures you shall bring.\"")
     time.sleep(1)
-    riddle_choice = input("Can you solve the riddle and proceed? (y/n): ")
+    riddle_choice = input("Can you solve the riddle and proceed? (y/n): ",)
 
     if riddle_choice.lower() != "y":
         print("Unsure of the answer, you retreat from the Enchanted Grove.")
