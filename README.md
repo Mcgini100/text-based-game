@@ -4,7 +4,7 @@ mixed generated content.
 # Title Eldoria used
 https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Eldoria
 
-# gender guesser
+# Username
 If python is installed 
 open cmd and run:
 
